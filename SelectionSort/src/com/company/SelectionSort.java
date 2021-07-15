@@ -7,7 +7,7 @@ package com.company;
 * from next of current node value till the end (time complexity of this process is O(n)).
 *  So we get (n-1)n complexity steps: (n-1)n = n²-n ~ n² => The time complexity is O(n²).
 *  TIME COMPLEXITY IS ALWAYS: O(n²), also when array is sorted.
-*  I do changes in array, so i don't use additional memory. only temp variable.
+*  I am doing changes in array, so i don't use additional memory. only temp variable.
 */
 
 public class SelectionSort {
