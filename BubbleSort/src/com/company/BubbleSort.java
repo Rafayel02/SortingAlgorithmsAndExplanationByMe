@@ -7,7 +7,6 @@ public class BubbleSort {
     public static void main(String[] args) {
 
         int counter = 0;
-        boolean sorted = false;
         printArray(array);
 
         for(int i = 0; i < array.length-1; i++) {
